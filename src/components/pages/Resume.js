@@ -1,10 +1,16 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
+import Container from "../Container"
 
 class Resume extends Component {
-    render() {
-        return(
-            <div><h1>Resume</h1></div>
-        )}
+  render() {
+    return (
+      <div>
+        <Container>
+          <h2>Resume</h2>
+        </Container>
+      </div>
+    );
+  }
 }
 
 export default Resume;
