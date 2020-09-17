@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import { Layout, Header,  HeaderRow, Textfield, Navigation, Drawer, Content } from "react-mdl";
+import MainRoutes from "./components/MainRoutes";
+import {Link} from "react-router-dom"
 // import Navbar from "./components/Navbar/Navbar";
 
 class App extends Component {
@@ -20,23 +22,25 @@ class App extends Component {
             </HeaderRow>
             <HeaderRow>
               <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/About Me">About Me</Link>
+                <Link to="/Portfolio">Portfolio</Link>
+                <Link to="/Contact">Contact</Link>
+                <Link to="/Resume">Resume</Link>
               </Navigation>
             </HeaderRow>
           </Header>
           <Drawer title="Title">
             <Navigation>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
+              <Link to="/About Me">About Me</Link>
+              <Link to="/Portfolio">Portfolio</Link>
+              <Link to="/Contact">Contact</Link>
+              <Link to="/Resume">Resume</Link>
             </Navigation>
           </Drawer>
           <Content>
+          {/* body of page within content */}
             <div className="page-content" />
+            <MainRoutes />
           </Content>
         </Layout>
       </div>
