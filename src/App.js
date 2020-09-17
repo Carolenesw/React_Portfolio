@@ -11,7 +11,7 @@ class App extends Component {
       <div className="demo-big-content">
         <Layout>
           <Header waterfall>
-            <HeaderRow title="Dashboard">
+            <HeaderRow className="header-style" title="Dashboard">
               <Textfield
                 value=""
                 onChange={() => {}}
@@ -23,7 +23,7 @@ class App extends Component {
             <HeaderRow>
               <Navigation>
               {/* change "a" tag to "link" and "href" to "to" */}
-                <Link to="/About Me">About Me</Link>
+                <Link to="/About">About Me</Link>
                 <Link to="/Portfolio">Portfolio</Link>
                 <Link to="/Contact">Contact</Link>
                 <Link to="/Resume">Resume</Link>
@@ -32,7 +32,7 @@ class App extends Component {
           </Header>
           <Drawer title="Dashboard">
             <Navigation>
-              <Link to="/About Me">About Me</Link>
+              <Link to="/About">About Me</Link>
               <Link to="/Portfolio">Portfolio</Link>
               <Link to="/Contact">Contact</Link>
               <Link to="/Resume">Resume</Link>

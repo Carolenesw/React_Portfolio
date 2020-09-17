@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import Container from "../Container";
+// import Container from "../Container"
 
 class About extends Component {
   render() {
@@ -12,6 +12,7 @@ class About extends Component {
 }
 
 export default About;
+
 
 // function About() {
 //   return (
