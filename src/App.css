@@ -63,3 +63,47 @@
   font-size: 5em;
   padding: 8px;
 }
+
+.project-cards {
+  /* background-image: url('../src/components/images/background1.png'); */
+  display: flex;
+  margin-left: 150px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.card-text {
+  margin-top: -80px;
+}
+
+.buttons {
+  text-align: center;
+}
+.food-card {
+  background-image: url('../src/components/image/food-finder.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+}
+
+.weather-card {
+  background-image: url('../src/components/image/weather_app.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+}
+
+.employee-card {
+  background-image: url('../src/components/image/employee_dir.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+}
+
+.profolio-card {
+  background-image: url('../src/components/image/weather_app.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+}
