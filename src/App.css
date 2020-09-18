@@ -107,3 +107,61 @@
   background-position: center;
   background-size: 95%;
 }
+
+.contact-info {
+margin: auto;
+margin-top: -60px;
+position: fixed;
+height: 100%;
+width: 100%;
+justify-content: center;
+padding-top: 2em;
+
+}
+
+.contact-grid {
+text-align: center;
+justify-content: center;
+width: 80%;
+height: 550px;
+/* background: wheat; */
+color: lightslategray;
+
+margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Hind', sans-serif;
+  font-weight: bolder;
+}
+
+.contact-grid p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contacts i {
+  font-size: 20px;
+  margin-left: 120px;
+  /* padding-right: 2rem; */
+}
+
+.footer {
+  background: #005aa7;
+  background: -webkit-linear-gradient(to right, #fffde4, #005aa7);
+  background: linear-gradient(to right, #fffde4, #005aa7);
+  margin: auto -16px;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.footer p {
+  font-size: 20px;
+  text-align: center;
+}
