@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { Grid, Cell, List, ListItem, ListItemContent, Button } from "react-mdl";
+import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 
 class Contact extends Component {
   render() {
     return (
-      <div className="contact-info">
-        <Grid className="contact-grid">
+      <div className="info">
+        <Grid className="grid">
           <Cell col={6}>
             <h2>Carolene Wilson-Grizzle</h2>
             <img
@@ -14,16 +14,13 @@ class Contact extends Component {
               className="contact_img"
               style={{ height: "250px" }}
             />
+            {/* <h2>Aspiration</h2>
+            <hr /> */}
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Resourceful Back-End Web Developer certified in Full Stack Web
-              Development from the University of Connecticut. Credited with
-              newly acquired skills in HTML, CSS, JavaScript, jQuery, Nodejs,
-              Python, React, MongoDM and Express. Complemented with a Bachelor
-              of Science degree in Business Administration and a Postgraduate
-              Certificate in Project Management. Challenged as a situational
-              leader whom is self-motivated, performance orientated, strategic
-              thinker, critical analyses with charismatic interpersonal skills.
+            An aspiration to provide end-users and team participants with the desired data or services via functional and fit for purpose cost effective programmatic means.
             </p>
+            
+            
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>

@@ -13,9 +13,8 @@ import {
   CardText,
 } from "react-mdl";
 
-// import Container from "../Container"
 
-class Profolio extends Component {
+class Portfolio extends Component {
   constructor(props) {
     super(props);
     this.state = { activeTab: 0 };
@@ -141,7 +140,7 @@ class Profolio extends Component {
   render() {
     return (
       <div className="project-type">
-        <h2>Profolio</h2>
+        <h2>Portfolio</h2>
         <Tabs
           activeTab={this.state.activeTab}
           onChange={(tabId) => this.setState({ activeTab: tabId })}
@@ -167,4 +166,4 @@ class Profolio extends Component {
   }
 }
 
-export default Profolio;
+export default Portfolio;

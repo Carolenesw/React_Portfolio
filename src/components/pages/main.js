@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
-// import Container from "../Container"
 // main landing page
 class Main extends Component {
   render() {
@@ -9,8 +8,9 @@ class Main extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing">
           <Cell col={12}>
+          {/* profile image */}
             <img
-              src={require("../image/profile_pic.jpg")}
+              src={require("../image/profile_pic.png")}
               alt="profile_pic"
               className="profile_img"
             />
@@ -20,7 +20,7 @@ class Main extends Component {
               <hr />
 
               <p>
-                Python | HTLM/CSS | JavaScript | React| Express| Nodejs | MonoDB
+                Python | HTLM/CSS | JavaScript | JQuery | React | Express | Nodejs | MonoDB
               </p>
               <div className="socialMediaLinks">
                 {/* linkedin */}
@@ -39,7 +39,7 @@ class Main extends Component {
                 >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
-                
+
               </div>
             </div>
           </Cell>
