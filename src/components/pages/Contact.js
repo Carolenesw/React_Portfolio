@@ -12,7 +12,7 @@ class Contact extends Component {
               src={require("../image/contact_img.jpg")}
               alt="Contact Img"
               className="contact_img"
-              style={{ height: "220px" }}
+              style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               Resourceful Back-End Web Developer certified in Full Stack Web
@@ -47,13 +47,22 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent style={{ fontSize: "25px", fontFamily: "Anton" }}>
-                  <i className="fa fa-github" aria-hidden="true" />
                     <a href="https://github.com/Carolenesw"
                       rel="noopener noreferrer"
                       target="_blank">
-                      </a>GitHub
+                      <i className="fa fa-github" aria-hidden="true" /></a>GitHub
                   </ListItemContent>
                 </ListItem>
+
+                <ListItem>
+                  <ListItemContent style={{ fontSize: "25px", fontFamily: "Anton"}}>
+                    <a href="https://drive.google.com/file/d/1xI-56YVqiM_S1acj-qyPDocyIUY7cOwQ/view"
+                      rel="noopener noreferrer"
+                      target="_blank">
+                      <i className="fa fa-plus-circle" aria-hidden="true" /></a>Resume
+                  </ListItemContent>
+                </ListItem>
+
               </List>
             </div>
           </Cell>
