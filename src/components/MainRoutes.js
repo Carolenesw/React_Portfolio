@@ -8,8 +8,10 @@ import Portfolio from "../components/pages/Portfolio";
 
 // sets routes to each page
 const MainRoutes = () => (
+  
   <Switch>
     <Route exact path="/" component={main} />
+    <Route exact path="/main" component={main} />
     <Route path="/About" component={About} />
     <Route path="/Contact" component={Contact} />
     <Route path="/Portfolio" component={Portfolio} />
