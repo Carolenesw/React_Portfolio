@@ -12,14 +12,11 @@ class Contact extends Component {
               src={require("../image/contact_img.jpg")}
               alt="Contact Img"
               className="contact_img"
-              style={{ height: "250px" }}
-            />
-            {/* <h2>Aspiration</h2>
-            <hr /> */}
+              style={{ height: "250px" }}/>
+
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
             An aspiration to provide end-users and team participants with the desired data or services via functional and fit for purpose cost effective programmatic means.
             </p>
-            
             
           </Cell>
           <Cell col={6}>
@@ -59,7 +56,6 @@ class Contact extends Component {
                       <i className="fa fa-plus-circle" aria-hidden="true" /></a>Resume
                   </ListItemContent>
                 </ListItem>
-
               </List>
             </div>
           </Cell>
