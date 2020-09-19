@@ -3,6 +3,7 @@ import "./App.css";
 import { Layout, Header,  HeaderRow, Textfield, Navigation, Drawer, Content } from "react-mdl";
 import MainRoutes from "./components/MainRoutes";
 import {Link} from "react-router-dom"
+import Footer from "./components/Footer"
 // import Navbar from "./components/Navbar/Navbar";
 
 class App extends Component {
@@ -26,7 +27,7 @@ class App extends Component {
                 <Link to="/About">About Me</Link>
                 <Link to="/Portfolio">Portfolio</Link>
                 <Link to="/Contact">Contact</Link>
-                <Link to="/Resume">Resume</Link>
+                {/* <Link to="/Resume">Resume</Link> */}
               </Navigation>
             </HeaderRow>
           </Header>
@@ -35,7 +36,7 @@ class App extends Component {
               <Link to="/About">About Me</Link>
               <Link to="/Portfolio">Portfolio</Link>
               <Link to="/Contact">Contact</Link>
-              <Link to="/Resume">Resume</Link>
+              {/* <Link to="/Resume">Resume</Link> */}
             </Navigation>
           </Drawer>
           <Content>
@@ -43,6 +44,7 @@ class App extends Component {
             <div className="page-content" />
             <MainRoutes />
           </Content>
+          <Footer />
         </Layout>
       </div>
     );

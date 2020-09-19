@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <footer>
-      <div className="footer" style={{ fontSize: "75px" }}>
+      <div className="footer">
        <p> React Portfolio ©{currentYear}</p>
       </div>
     </footer>

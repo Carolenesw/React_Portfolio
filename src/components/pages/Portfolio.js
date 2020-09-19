@@ -29,7 +29,7 @@ class Portfolio extends Component {
         <div className="project-cards">
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle className="employee-card"
-            style={{color: "#FFF", height: "350px"}}>Employee Directory</CardTitle>
+            style={{color: "#FFF", height: "350px"}}></CardTitle>
           <CardText className="card-text">
           <p className="title">Employee Directory</p>
           <p>Create a employee directory with random users, when the user loads the page, a table of employees should render. The user should be able to sort the table by at least one category and filter the users by at least one property.</p>
@@ -50,7 +50,7 @@ class Portfolio extends Component {
 
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle className="profolio-card"
-            style={{color: "#FFF", height: "350px"}}>React_Portfolio</CardTitle>
+            style={{color: "#FFF", height: "350px"}}></CardTitle>
           <CardText className="card-text">
           <p className="title">React Portfolio</p>
           <p>React portfolio app utilizing a single react component on multiple pages, navigation with React Router, a Footer component that appears on multiple pages and dynamic rendering. </p>
@@ -76,7 +76,7 @@ class Portfolio extends Component {
        <div className="project-cards">
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle className="food-card"
-            style={{color: "#FFF", height: "350px"}}>Food finder</CardTitle>
+            style={{color: "#FFF", height: "350px"}}></CardTitle>
           <CardText className="card-text">
           <p className="title">Food finder</p>
             <p>JQuery app that display nearby restaurants with delivery options,
@@ -97,7 +97,7 @@ class Portfolio extends Component {
 
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle className="weather-card"
-            style={{color: "#FFF", height: "350px"}}>Weather App</CardTitle>
+            style={{color: "#FFF", height: "350px"}}></CardTitle>
           <CardText className="card-text">
           <p className="title">Weather App</p>
            <p>A weather application that allow's user to search based on their current location or city worldwide. The app display current weather five days forecast and uses color code to dispaly weather conditions. </p>
@@ -123,7 +123,7 @@ class Portfolio extends Component {
         <div className="project-cards">
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle className="employee-summary"
-            style={{color: "#FFF", height: "350px"}}>Employee Summary</CardTitle>
+            style={{color: "#FFF", height: "350px"}}></CardTitle>
           <CardText className="card-text">
           <p className="title">Employee Summary</p>
             <p>A team generator command line application that will prompt the user for information about the team members. The user can input any number of team members including a mix of managers, engineers and interns.</p>
@@ -143,7 +143,7 @@ class Portfolio extends Component {
 
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle className="book-crawler"
-            style={{color: "#FFF", height: "350px"}}>Book Crawler</CardTitle>
+            style={{color: "#FFF", height: "350px"}}></CardTitle>
           <CardText className="card-text">
           <p className="title">Book Crawler</p>
            <p>A full stack application that uses a database to store usernames and passwords to login and uses google books api to search for books. </p>
@@ -187,7 +187,8 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="project-type">
-        <h2>Portfolio</h2>
+      <div className="portfolio"></div>
+        {/* <h2>Portfolio</h2> */}
         <Tabs
           activeTab={this.state.activeTab}
           onChange={(tabId) => this.setState({ activeTab: tabId })}
