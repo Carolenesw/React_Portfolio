@@ -4,24 +4,18 @@
 <img alt="APM" src="https://img.shields.io/apm/l/React">
  
 
-## User Story 
-
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information. 
-
 ## Technology
 
 - Reactjs
 
 ## Description: 
 
-* Create a employee directory with Reactjs. The application's UI should be broken up into components, manage component state, and respond to user events.
+* Create a user profolio with Reactjs. The application's UI should be broken up into the following.
 
-* The app should be able to:
-
-Given a table of random users, when the user loads the page, a table of employees should render.
-    - The user should be able to sort the table by at least one category
-    - Filter the users by at least one property
-
+- There should be at least a Header component that appears on multiple pages
+- A single Project component that will be used multiple times on a single page
+- Navigation with React Router, dynamic rendering, or another third part router
+- A Footer component that appears on multiple pages
 
 ## Table of Content: 
 
@@ -35,8 +29,8 @@ Given a table of random users, when the user loads the page, a table of employee
 * [Images](#images)
 
 ## Installaion:
-* npm i
-* npm run start
+* npm install
+* npm start
 
 ## License: 
 * MIT
