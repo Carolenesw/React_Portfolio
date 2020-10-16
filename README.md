@@ -7,6 +7,9 @@
 ## Technology
 
 - Reactjs
+- React-dom
+- React-mdl
+- React-router-dom
 
 ## Description: 
 
